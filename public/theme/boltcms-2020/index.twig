@@ -14,7 +14,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
 </head>
 <body>
-  <header>
+  <header class="fixed-top">
     <div
       class="navbar navbar-expand navbar-dark flex-column flex-md-row bd-navbar navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
       <img class="d-inline" src="theme/boltcms-2020/images/logo.svg" />
@@ -90,7 +90,7 @@
     {# Start of "Features" section #}
     <div class="container">
       <div id="features">
-        <div class="row background">
+        <div class="row background pb-4">
           <div class="col-12">
             <div class="row justify-content-center">
               <div class="col-auto">
@@ -105,7 +105,7 @@
                 Epicuro loqui discimus.</p>
           </div>
           <div class="col-4 blok">
-            <img class="imagedetails2" src="theme/boltcms-2020/images/locatie.svg" />
+            <img class="imagedetails1" src="theme/boltcms-2020/images/stekker.svg" />
             <p class="paragraph"><strong>Localization<p></strong>
               <p>et disputatio splendida! omnis est enim de virtutis dignitate contentio. Quoniam, si dis placet, ab
                 Epicuro loqui discimus.</p>
@@ -123,7 +123,7 @@
                 Epicuro loqui discimus.</p>
           </div>
           <div class="col-4 blok">
-            <img class="imagedetails2" src="theme/boltcms-2020/images/locatie.svg" />
+            <img class="imagedetails1" src="theme/boltcms-2020/images/stekker.svg" />
             <p class="paragraph"><strong>Localization<p></strong>
               <p>et disputatio splendida! omnis est enim de virtutis dignitate contentio. Quoniam, si dis placet, ab
                 Epicuro loqui discimus.</p>
@@ -134,18 +134,22 @@
               <p>et disputatio splendida! omnis est enim de virtutis dignitate contentio. Quoniam, si dis placet, ab
                 Epicuro loqui discimus.</p>
           </div>
-        </div>
-        
-        <div class="col-12">
-          <div class="row justify-content-center background1">
-            <div class="col text-center">
-              <button class="btn btn-outline-primary">View features for content creators</button>
-              <button class="btn btn-outline-primary">View features for developers</button>
+         
+         <div class="container">
+          <div class="row">
+          <div class="row justify-content-center">
+            <div class="col-auto">
+              <button class="btn btn-outline-primary button1">View features for content creators</button>
+            </div>
+            <div class="col-auto">
+              <button class="btn btn-outline-primary button1">View features for developers</button>
             </div>
           </div>
+          </div>
         </div>
-        
+        </div>
       </div>
+      
       {# End of "Features" section #}
 
       {# Start of "Powered by / community" section #}
@@ -168,30 +172,39 @@
               </div>
             </div>
           </div>
+          
           <div class="col-6">
             <h3 class="titel">For and by the community</h3>
-            <p class="tekst">Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+            <p class="text">Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
               been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of
               type.</p>
             <div class="d-flex justify-content-around">
               <div class="my-auto">
-                <img src="theme/boltcms-2020/images/slack.png" />
+                <img src="theme/boltcms-2020/images/1.png" />
               </div>
               <div class="my-auto">
-                <img src="theme/boltcms-2020/images/github.png" />
+                <img src="theme/boltcms-2020/images/twig.png" />
+              </div>
+              <div class="my-auto">
+                <img src="theme/boltcms-2020/images/symfony.png" />
               </div>
             </div>
           </div>
+        
         </div>
         {# End of "Powered by / community" section #}
 
         {# Start of "CTA" section #}
         <div class="row justify-content-center">
           <div class="col-auto">
+            
+            
             <div class="row cta">
+              
               <div class="col-12">
                 <h1 class="titel1">Let's get started</h1>
               </div>
+              
               <div class="col-12">
                 <div class="row justify-content-center">
                   <div class="col-auto">
@@ -202,6 +215,7 @@
                   </div>
                 </div>
               </div>
+            
             </div>
             {# End of "CTA" section #}
 
@@ -224,8 +238,9 @@
             {# End of "feautres1" #}
 
             {# Start of "contributors" #}
-            <div id="features">
+            <div id="features background1">
               <div class="row contributors">
+                
                 <div class="col-12">
                   <div class="row justify-content-center">
                     <div class="col-auto">
@@ -329,6 +344,7 @@
                   <img class="avatar" src="theme/boltcms-2020/images/avatar12.png" />
                   <p class="name">Wouter de Jong</p>
                 </div>
+              
               </div>
             </div>
             {# End of "contributors" #}
@@ -367,7 +383,7 @@
   <footer>
     <div class="row">
       <div class="text-right col-12">
-        <div class="row justify-content-around">
+        <div class="row justify-content-around background2">
           <div class="my-auto">
             <a href="https://twitter.com/boltcms">
               <i class="fa fa-twitter"></i> Bolt on Twitter
@@ -383,7 +399,6 @@
           </div>
         </div>
       </div>
-    </div>
     </div>
   </footer>
 </body>

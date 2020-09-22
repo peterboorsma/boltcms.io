@@ -77,7 +77,7 @@ h1 {
 .details {
     font-size: 36px;
     color: #0278FC;
-    text-align: left;
+    text-align: center;
     font-weight: bold;
     margin-top: 50px;
 }
@@ -107,17 +107,13 @@ h1 {
     color: #222222;
     text-align: center;
     line-height: 22px;
+    padding-right:
 }
 
 .background {
     background-color: #EBF4FF;
     text-align: center;
     margin-top: 50px;
-}
-
-.background1 {
-    background-color: #EBF4FF;
-    height: 130px;
 }
 
 .btn-outline-primary {
@@ -147,6 +143,7 @@ h1 {
 .cta {
     background: #0278FC;
     margin-top: 80px;
+    height: 200px;
 }
 
 .titel1 {
@@ -196,6 +193,7 @@ h1 {
 .contributors {
     background-color: #EBF4FF;
     margin-top: 80px;
+    padding-top: 20px;
 }
 
 .contributors1 {
@@ -244,6 +242,12 @@ footer {
     background: #EBF4FF;
     width: 100%;
     font-size: 14px;
+}
+
+.background2 {
+    height: 45px;
+    padding-top: 17;
+   
 }
 
 /* div.row { 
